@@ -6,7 +6,7 @@
 }
 
 .bg-img{
-    background-image: url('/static/users/img/bg.png');
+    background-image: url('/static/usuarios/img/bg.png');
     height: 100vh;
     background-size: cover;
     color: #14e9e9
@@ -34,7 +34,7 @@
 }
 
 .btn-principal{
-
+    
     background-color: transparent;
     border: 1px solid var(--contrast-color);
     color: white;
