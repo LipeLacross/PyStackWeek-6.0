@@ -1,7 +1,5 @@
 import os
-import sys
 from pathlib import Path
-
 from django.contrib.messages import constants
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -12,7 +10,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-&)6c$-oa*a-zg%&1m+ix_#!v$x1m@gj9959h&79hyu9dp)3ihs'
+SECRET_KEY = 'django-insecure-$hm8wx73%x9uvtc6#h+iv&nnmjf-1(81nn(jh86vds=eb$cgjc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -30,7 +28,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'usuarios',
-    'eventos'
+    'eventos',
+    'cliente',
 ]
 
 MIDDLEWARE = [
@@ -48,7 +47,9 @@ ROOT_URLCONF = 'type_event.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'templates')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -97,7 +98,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
-LANGUAGE_CODE = 'pt-br'
+LANGUAGE_CODE = 'pt-BR'
 
 TIME_ZONE = 'America/Sao_Paulo'
 
@@ -105,9 +106,6 @@ USE_I18N = True
 
 USE_TZ = True
 
-# configure apps folder
-PROJECT_ROOT = os.path.dirname(__file__)
-sys.path.insert(0, os.path.join(PROJECT_ROOT, '../apps'))
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
@@ -124,14 +122,12 @@ MEDIA_URL = '/media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-
 # Messages
-
 
 MESSAGE_TAGS = {
     constants.DEBUG: 'alert-primary',
     constants.ERROR: 'alert-danger',
     constants.WARNING: 'alert-warning',
     constants.SUCCESS: 'alert-success',
-    constants.INFO: 'alert-info ',
+    constants.INFO: 'alert-info',
 }
