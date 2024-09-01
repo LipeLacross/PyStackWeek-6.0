@@ -16,7 +16,6 @@ Um projeto desenvolvido com Django e SQLite para controle de eventos e geração
 ![image](https://github.com/user-attachments/assets/7e08598f-3e47-4c42-b1d0-8775449cea66)
 ![image](https://github.com/user-attachments/assets/1aaa8d21-9200-4888-84e4-074deb938832)
 
-
 ## ✔️ Técnicas e Tecnologias Utilizadas
 
 - **Django**: Framework web para desenvolvimento rápido e seguro.
@@ -53,17 +52,20 @@ Um projeto desenvolvido com Django e SQLite para controle de eventos e geração
 - Python 3.x instalado na máquina
 - Django instalado (veja `requirements.txt` para as dependências)
 
-# PSW 6.0
-# Pystack Week
+### Comandos Básicos
 
-## PSW 6.0
-https://grizzly-amaranthus-f6a.notion.site/PSW-6-0-4926964e82e843e4b95a00f5107c40b8
-## Notion All Classes
-https://grizzly-amaranthus-f6a.notion.site/PSW-e33ff4be6f624a87bc1e8574ba435e8d
-## 📄 Alguns Comandos Básicos
-
-- ` pip install -r requirements.txt
-- `venv\Scripts\Activate` -> Ativar o ambiente virtual
+- `pip install -r requirements.txt` -> Instala as dependências do projeto.
+- `venv\Scripts\Activate` -> Ativa o ambiente virtual.
 - `python manage.py makemigrations` -> Cria arquivos de migração com base nas alterações nos modelos do Django.
 - `python manage.py migrate` -> Aplica as migrações pendentes ao banco de dados.
-- - `python manage.py runserver` -> Inicia o servidor de desenvolvimento do Django em http://localhost:8000/.
+- `python manage.py runserver` -> Inicia o servidor de desenvolvimento do Django em http://localhost:8000/.
+
+## Recursos Adicionais
+
+- [Versão em Inglês do README](README_EN.md)
+
+## PSW 6.0
+[PSW 6.0](https://grizzly-amaranthus-f6a.notion.site/PSW-6-0-4926964e82e843e4b95a00f5107c40b8)
+
+## Notion All Classes
+[Notion All Classes](https://grizzly-amaranthus-f6a.notion.site/PSW-e33ff4be6f624a87bc1e8574ba435e8d)
