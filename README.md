@@ -1,5 +1,7 @@
 # Sistema de Geração de Certificados
 
+## 🌐 [English Version of README](README_EN.md)
+
 Um projeto desenvolvido com Django e SQLite para controle de eventos e geração de certificados. Este sistema é ideal para eventos onde a emissão de certificados para participantes é necessária.
 
 ## 🔨 Funcionalidades do Projeto
