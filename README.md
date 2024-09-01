@@ -62,10 +62,6 @@ Um projeto desenvolvido com Django e SQLite para controle de eventos e geração
 - `python manage.py migrate` -> Aplica as migrações pendentes ao banco de dados.
 - `python manage.py runserver` -> Inicia o servidor de desenvolvimento do Django em http://localhost:8000/.
 
-## Recursos Adicionais
-
-- [Versão em Inglês do README](README_EN.md)
-
 ## PSW 6.0
 [PSW 6.0](https://grizzly-amaranthus-f6a.notion.site/PSW-6-0-4926964e82e843e4b95a00f5107c40b8)
 
